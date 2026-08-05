@@ -1,7 +1,7 @@
 <lg-host browserBasedSupport="true" citrixSupport="false"
     hostname="localhost:7100" loadWeight="1" sapSupport="false"
     standalone="false" supportWANEmulation="false"
-    uid="e4178470-f38b-4df7-b4b2-94ab4609e002" version="2026.3.0;build=20260803-13">
+    uid="e4178470-f38b-4df7-b4b2-94ab4609e002" version="2026.3.0;build=20260804-4">
     <!--****** LG NETWORK INTERFACES ******-->
     <lg-networkiface
         description="Hyper-V Virtual Ethernet Adapter #2-Npcap Packet Driver (NPCAP)-0000"
@@ -84,7 +84,7 @@
         enabled="false" isLoopBack="false" name="ethernet_32775">
         <!--****** LG ADDRESSES ******-->
         <lg-address enabled="false" hostname="tri-fdvzsh4.mshome.net">
-            <ip value="172.18.240.1"/>
+            <ip value="172.23.16.1"/>
         </lg-address>
         <lg-address enabled="false" hostname="fe80:0:0:0:9b6d:75dd:e523:f81e%ethernet_32775">
             <ip value="fe80:0:0:0:9b6d:75dd:e523:f81e%ethernet_32775"/>
@@ -242,8 +242,8 @@
         <lg-address enabled="false" hostname="tri-fdvzsh4">
             <ip value="172.21.64.1"/>
         </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:8f5b:e17e:52bb:b684%ethernet_32778">
-            <ip value="fe80:0:0:0:8f5b:e17e:52bb:b684%ethernet_32778"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:deaf:5f0f:2714:5083%ethernet_32778">
+            <ip value="fe80:0:0:0:deaf:5f0f:2714:5083%ethernet_32778"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
