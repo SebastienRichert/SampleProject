@@ -1,6 +1,6 @@
 <me-host browserBasedSupport="false" citrixSupport="false"
     loadWeight="1" sapSupport="false" standalone="false"
-    supportWANEmulation="false" uid="localhost" version="2026.3.0;build=20260819-702">
+    supportWANEmulation="false" uid="localhost" version="2026.3.0;build=20260825-931">
     <!--****** LG NETWORK INTERFACES ******-->
     <lg-networkiface
         description="Realtek USB GbE Family Controller #2-QoS Packet Scheduler-0000"
@@ -15,14 +15,14 @@
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
     <lg-networkiface
-        description="Realtek USB GbE Family Controller #2-Zscaler LightWeight Filter-0000"
-        enabled="false" isLoopBack="false" name="ethernet_8">
+        description="Hyper-V Virtual Ethernet Adapter #2-QoS Packet Scheduler-0000"
+        enabled="false" isLoopBack="false" name="ethernet_21">
         <!--****** LG ADDRESSES ******-->
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
     <lg-networkiface
-        description="Hyper-V Virtual Ethernet Adapter #2-QoS Packet Scheduler-0000"
-        enabled="false" isLoopBack="false" name="ethernet_21">
+        description="Realtek USB GbE Family Controller #2-Zscaler LightWeight Filter-0000"
+        enabled="false" isLoopBack="false" name="ethernet_8">
         <!--****** LG ADDRESSES ******-->
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
