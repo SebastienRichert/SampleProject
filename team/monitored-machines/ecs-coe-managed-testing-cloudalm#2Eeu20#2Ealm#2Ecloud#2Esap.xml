@@ -1,0 +1,5 @@
+<monitored-host
+    host-name="ecs-coe-managed-testing-cloudalm.eu20.alm.cloud.sap"
+    mehost-name="localhost" proxy-id="" uid="ecs-coe-managed-testing-cloudalm.eu20.alm.cloud.sap">
+    <embedded-action>00e083be-fffa-4c93-bc17-e13f97d51333</embedded-action>
+</monitored-host>

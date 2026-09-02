@@ -1,0 +1,36 @@
+<connection-sapcloudalm client-id="sb-CALM_API!b9165|sapcloudalm!b1664"
+    client-secret="gQ04omCoed9el1vsNJVykia+pXnREf476qCTXid8zqXs7UlmoaCiPPUZTT7i4QrQTSdDYu/PzzOqo8E70EmRzaC3xSjLmRSZLq2f8YAGnQUnbVjbyh58zPhwRjQMagRA8vQVdE4wV4bzK6e6YXZCvxyuEHlH6xZ1qgyOgWKix2Y=$3"
+    interval="30000" name="SAP Cloud ALM" scope=""
+    server-address="https://ecs-coe-managed-testing-cloudalm.eu20.alm.cloud.sap/"
+    server-port="0"
+    token-url="https://ecs-coe-managed-testing-cloudalm.authentication.eu20.hana.ondemand.com/oauth/token" uid="00e083be-fffa-4c93-bc17-e13f97d51333">
+    <monitor-category name="Queries" short-display-name="Queries">
+        <monitor-sapcloudalm callTime="ON_BENCH" computing="0"
+            format="NUMBER" legend-format=""
+            metric-id="CPI.Sys.Memory.Usage"
+            name="To_Be_Deleted_CloudIntegration/CPI.Sys.Memory.Usage"
+            sampling="0" service-id="To_Be_Deleted_CloudIntegration"
+            short-display-name="To_Be_Deleted_CloudIntegration/CPI.Sys.Memory.Usage" unit=""/>
+        <monitor-sapcloudalm callTime="ON_BENCH" computing="0"
+            format="NUMBER" legend-format=""
+            metric-id="CPI.JMS.Queue.Status"
+            name="To_Be_Deleted_CloudIntegration/CPI.JMS.Queue.Status"
+            sampling="0" service-id="To_Be_Deleted_CloudIntegration"
+            short-display-name="To_Be_Deleted_CloudIntegration/CPI.JMS.Queue.Status" unit=""/>
+        <monitor-sapcloudalm callTime="ON_BENCH" computing="0"
+            format="NUMBER" legend-format=""
+            metric-id="ABAP.Enqueue.Entries.OlderThanOneDay"
+            name="RF1.000/ABAP.Enqueue.Entries.OlderThanOneDay"
+            sampling="0" service-id="RF1.000"
+            short-display-name="RF1.000/ABAP.Enqueue.Entries.OlderThanOneDay" unit=""/>
+        <monitor-sapcloudalm callTime="ON_BENCH" computing="0"
+            format="NUMBER" legend-format=""
+            metric-id="hana_db_memory_used_gb"
+            name="S4HANA_Cloud_CC7/hana_db_memory_used_gb" sampling="0"
+            service-id="S4HANA_Cloud_CC7"
+            short-display-name="S4HANA_Cloud_CC7/hana_db_memory_used_gb" unit=""/>
+        <monitor-sapcloudalm callTime="ON_BENCH" computing="0"
+            format="NUMBER" legend-format="" metric-id="" name="/"
+            sampling="0" service-id="" short-display-name="/" unit=""/>
+    </monitor-category>
+</connection-sapcloudalm>
