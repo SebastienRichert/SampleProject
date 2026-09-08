@@ -14,3 +14,4 @@ ssh.trustUnknownHosts.MONITORS=false
 monitor.tls.insecure=false
 project.is-open-test-settings-after-upload=true
 team.server.project=/SebastienRichert/SampleProject.git
+project.description=
